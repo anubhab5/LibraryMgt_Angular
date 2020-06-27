@@ -1,0 +1,10 @@
+<p>book works!</p>
+
+<div *ngFor="let book of bookList">
+    <span>{{book.id}}</span> |||
+    <span>{{book.name}}</span> |||
+    <span>{{book.author}}</span> |||
+    <span>{{book.count}}</span> |||
+    <input type="button" (click)="clickEventFn()" value="Edit">
+    <hr>
+</div>
